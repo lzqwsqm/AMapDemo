@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:listDivider" />
+
+    <RadioGroup
+        android:id="@+id/rg_main_bottom_group"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/tv_main_bottom_home"
+            style="@style/MainBottomStyle"
+            android:drawableTop="@drawable/selector_bottom_home"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/tv_main_bottom_invest"
+            style="@style/MainBottomStyle"
+            android:drawableTop="@drawable/selector_bottom_invest"
+            android:text="我要投资" />
+
+        <RadioButton
+            android:id="@+id/tv_main_bottom_me"
+            style="@style/MainBottomStyle"
+            android:drawableTop="@drawable/selector_bottom_me"
+            android:text="我的资产" />
+
+        <RadioButton
+            android:id="@+id/tv_main_bottom_more"
+            style="@style/MainBottomStyle"
+            android:drawableTop="@drawable/selector_bottom_more"
+            android:text="更多" />
+    </RadioGroup>
+
+</LinearLayout>
