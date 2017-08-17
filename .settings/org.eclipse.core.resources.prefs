@@ -1,4 +1,6 @@
 eclipse.preferences.version=1
+encoding//src/com/example/invest/jsbridge/BridgeUtil.java=UTF-8
+encoding//src/com/example/invest/jsbridge/BridgeWebViewClient.java=UTF-8
 encoding//src/com/example/invest/photo/view/ImageLoadCouplingUtil.java=UTF-8
 encoding//src/com/example/invest/photo/view/PhotoViewActivity.java=UTF-8
 encoding//src/com/example/invest/photo/view/PhotoViewPager.java=UTF-8
